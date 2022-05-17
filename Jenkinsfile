@@ -11,7 +11,7 @@ pipeline {
         }
 	stage('Test case 1'){
  	    steps {
-	     bat 'add < infile.txt'
+	     bat 'add < test1.txt'
 	    }
 	}
     }
